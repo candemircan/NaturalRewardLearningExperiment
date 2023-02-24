@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<fieldset>
+    <legend>Please answer a few questions about this study before proceeding</legend>
+    <p style="font-size:100%;color:maroon;"> You will only be directed to the next page if you manage to answer all of the questions correctly.</p>
+
+    <fieldset> 
+        <b>What is your goal during the task? </b><br>
+        <label for="q1l1" style="font-weight: normal;"><input type="radio" name="q1" id="l1_1"><span id="q1l1"> Choose as many different objects as possible. </span></label><br>
+        <label for="q1l2" style="font-weight: normal;"><input type="radio" name="q1" id="icheck1"><span id="q1icheck1"> Gain as many points as possible. </span></label><br>
+        <label for="q1l3" style="font-weight: normal;"><input type="radio" name="q1" id="l1_2"><span id="q1l2"> Finish the task as quickly as possible. </span></label><br>
+        <br>
+    </fieldset>
+    <fieldset> 
+        <b>How many choices will you need to make? </b><br>
+        <label for="q2l1" style="font-weight: normal;"><input type="radio" name="q2" id="l2_1"/><span id="q2l1"> It depends. </span></label><br>
+        <label for="q2l2" style="font-weight: normal;"><input type="radio" name="q2" id="l2_2"/><span id="q2l2"> 100 </span></label><br>
+        <label for="q2l3" style="font-weight: normal;"><input type="radio" name="q2" id="icheck2"> <span id="q2icheck2"> 60 </span></label><br>
+        <br>
+    </fieldset>
+    <fieldset> 
+        <b>What is the range of points you can earn in one trial? </b><br>
+        <label for="q3l1" style="font-weight: normal;"><input type="radio" name="q3" id="l3_1"/><span id="q3l1"> 0 - 10 </span></label><br>
+        <label for="q3l2" style="font-weight: normal;"><input type="radio" name="q3" id="icheck3"/><span id="q3icheck3"> 0 - 100 </span></label><br>
+        <label for="q3l3" style="font-weight: normal;"><input type="radio" name="q3" id="l3_2"> <span id="q3l2"> 100 - 1000 </span></label><br>
+        <br>
+    </fieldset>
+</fieldset>
+<br>
+<button type="button" name="button" onclick="comprehensionCheck();"> <span id="check"> Check Answers </span> </button>  
+</html>
